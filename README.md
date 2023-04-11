@@ -9,7 +9,7 @@
 	5.Use SSH to push changes to your test repository(from local to remote)
 
 ## STEP 1:
-- Creating an SSH key on my local machine:
+- Creating an SSH key (local machine):
 
 `Commands (gitbash):`
 -
@@ -28,7 +28,7 @@
 `enter`
 ###### (if you want to delete wrong folder: rm name-github-key)
 
-![ssh_keygen_1.png](ssh_keygen_1.png)
+![ssh_keygen_1a.png](ssh_keygen_1a.png)
 ## STEP 2:
 - Registering the public version of the key:
 
@@ -58,7 +58,7 @@
 
 `ssh-add name-mateusz-github-key (adding private key to register)`
 
-![checking_connection_3.png](checking_connection_3.png)
+![checking_connection_3a.png](checking_connection_3a.png)
 
 `ssh -T git@github.com (checking connection, if asked: type 'yes)`
 
